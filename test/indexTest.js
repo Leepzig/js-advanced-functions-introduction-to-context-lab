@@ -334,6 +334,7 @@ describe("The payroll system", function () {
                 createTimeOutEvent(rec, timeOutStamp)
               })
             })
+            //console.log("payroll Results:",calculatePayroll(employeeRecords))
             expect(calculatePayroll(employeeRecords)).to.eql(12480)
           })
         })
